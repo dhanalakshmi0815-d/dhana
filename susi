@@ -1,0 +1,11 @@
+mvn archetype:generate -Dgroupid=com.example -Dartifactid=my-app -DarchetypeArtifactid=maven-archetype-quicksort -DinteractiveMode=false
+cd my-app
+git init
+echo"target/">.gitignore
+echo".idea/">>.gitignore
+echo"*.iml">>.gitignore
+git add.
+git commit -m"Initial commit"
+git remote add origin (clone link)
+git push -u origin master
+git status
