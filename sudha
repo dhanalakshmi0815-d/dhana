@@ -1,0 +1,20 @@
+mkdir sudha
+cd sudha
+git clone (url)
+git init
+git checkout -b s1
+touch sd1.txt
+git add sd1.txt
+git commit -m "changes"
+git branch
+git remote add origin sd1
+maybe
+git remote set-url url+token
+git remote remove origin
+git remote add origin url+token
+git push origin sd1
+git checkout -b sd2
+touch sd2.txt
+git add sd2.txt
+git commit -m "changes"
+git push origin sd2
